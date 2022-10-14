@@ -35,7 +35,7 @@ const Staking = memo(() => {
     const [mimBalance, setMimBalance] = useState(0);
     const wineMimLPPrice = usePairPrice();
     const [rewardsPerDayBalance, setRewardsPerDayBalance] = useState(0);
-    const [dailyAPR, setDailyAPR] = useState(1);
+    const [dailyAPR, setDailyAPR] = useState(2);
 
     const clearUserInfo = () => {
       setBalance(0);
@@ -88,8 +88,8 @@ const Staking = memo(() => {
         <div className="flex justify-between  mt-5">
           <div>Your Compounds</div>
           <div style={{ textAlign: "right" }}>
-            <CountUp end={balance - totalBalance} decimals={4} separator="," />{" "}
-            LP
+            <CountUp end={balance - totalBalance} decimals={1} separator="," />{" "}
+            
             {wineMimLPPrice && (
               <div className="text-xs">
                 ~${((balance - totalBalance) * wineMimLPPrice).toFixed(2)}
@@ -100,7 +100,7 @@ const Staking = memo(() => {
         <div className="flex justify-between">
           <div>Your Deposits</div>
           <div style={{ textAlign: "right" }}>
-            <CountUp end={totalBalance} decimals={4} separator="," /> LP
+            <CountUp end={totalBalance} decimals={1} separator="," />
             {wineMimLPPrice && (
               <div className="text-xs">
                 ~${(totalBalance * wineMimLPPrice).toFixed(2)}
@@ -112,7 +112,7 @@ const Staking = memo(() => {
         <div className="flex justify-between">
           <div>Total Compound + Deposits</div>
           <div style={{ textAlign: "right" }}>
-            <CountUp end={balance} decimals={4} separator="," /> LP
+            <CountUp end={balance} decimals={1} separator="," />
             {wineMimLPPrice && (
               <div className="text-xs">
                 ~${(balance * wineMimLPPrice).toFixed(2)}
@@ -422,7 +422,7 @@ const Staking = memo(() => {
         className="flex justify-center items-center mr-4 mt-5 mb-1"
         onChange={(e) => handleAssetChanged(e)}
       >
-        <input
+       {/* <input
           id="lp"
           checked={asset === "lp"}
           value="lp"
@@ -434,7 +434,7 @@ const Staking = memo(() => {
         <label htmlFor="lp" className="flex items-center cursor-pointer mr-5">
         sVintage Tokens
         </label>
-        {/* <input
+         <input
           id="wine"
           checked={asset === "wine"}
           value="wine"
@@ -445,7 +445,7 @@ const Staking = memo(() => {
         />
         <label htmlFor="wine" className="flex items-center cursor-pointer mr-5">
           Wine
-        </label>*/}
+        </label>
         <input
           id="mim"
           checked={asset === "mim"}
@@ -457,7 +457,7 @@ const Staking = memo(() => {
         />
         <label htmlFor="mim" className="flex items-center cursor-pointer mr-5">
           MIM
-        </label>
+        </label>*/}
       </div>
       <DepositForm asset={asset} />
     </Card>
