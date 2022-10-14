@@ -10,7 +10,7 @@ module.exports = {
         'gradient-radial': 'linear-gradient(90deg, rgba(144,17,105,1) 0%, rgba(95,17,144,1) 100%)',
       },
       colors: {
-        'brand-1': '#930993',
+        'brand-1': 'rgb(1, 142, 57)',
         'brand-2': '#641d64',
         'brand-3': '#ccf',
         'brand-4': 'rgb(23, 25, 35, 0.65)',

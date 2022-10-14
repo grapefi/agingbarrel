@@ -15,8 +15,8 @@ export default function MenuTop() {
       className="sticky top-0"
       style={{
         zIndex: 10,
-        background:
-          "linear-gradient(144deg, rgb(0, 0, 0) 10%, rgba(120, 19, 120, 0.9) 50%, rgba(50, 50, 50, 0.8))",
+        background: "transparent",
+        backdropFilter: "blur(5px)",
         boxShadow: "50px 4px 26px -18px rgba(0,0,0,0.99) !important",
       }}
     >
