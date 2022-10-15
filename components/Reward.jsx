@@ -129,7 +129,7 @@ const Rewards = memo(() => {
               decimals={5}
               separator=","
             />
-            &nbsp;LP Tokens
+            &nbsp; Tokens
             {wineMimLPPrice && (
               <div className="text-xs">
                 ~${(claimBalance * wineMimLPPrice).toFixed(2)}
@@ -147,7 +147,7 @@ const Rewards = memo(() => {
               decimals={5}
               separator=","
             />
-            &nbsp;LP Tokens
+            &nbsp; Tokens
             {wineMimLPPrice && (
               <div className="text-xs">
                 ~${(rewardsPerDayBalance * wineMimLPPrice).toFixed(2)}

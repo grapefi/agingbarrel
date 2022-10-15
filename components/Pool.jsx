@@ -26,7 +26,7 @@ export default function Pool(lpPrice) {
   }, [totalDeposited.data]);
 
   return (
-    <Card title="Aging Barrel Balance" image="soda.png">
+    <Card title="sVintage Solera" image="svintage.png">
       <div className="flex justify-between">
         <h1>Total Deposited</h1>
         <div style={{ textAlign: "right" }}>

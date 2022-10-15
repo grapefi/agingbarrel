@@ -5,7 +5,7 @@ export default function Footer() {
     <div className="footer">
       <div>
         <span className="footer-title flex justify-center pt-2">
-          Copyright © Vintage Aging Barrel |{" "}
+          Copyright © sVintage Solera |{" "}
           <a
             className="ml-2 underline"
             href="https://grapefinance.app"

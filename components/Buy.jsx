@@ -69,7 +69,7 @@ export default function Buy() {
               <Menu.Item>
                 {({ active }) => (
                   <a
-                    href="https://winemaker.grapefinance.app/"
+                    href="https://winemaker.grapefinance.app/app/Cellar"
                     target="_blank"
                     rel="noreferrer"
                     className={`${
@@ -77,20 +77,6 @@ export default function Buy() {
                     } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                   >
                     Mint sVintage
-                  </a>
-                )}
-              </Menu.Item>
-              <Menu.Item>
-                {({ active }) => (
-                  <a
-                    href="https://app.bogged.finance/avax/swap?tokenIn=AVAX&tokenOut=0x130966628846BFd36ff31a822705796e8cb8C18D"
-                    target="_blank"
-                    rel="noreferrer"
-                    className={`${
-                      active ? "bg-primary text-white" : "text-gray-900"
-                    } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                  >
-                    Buy MIM
                   </a>
                 )}
               </Menu.Item>
@@ -110,24 +96,6 @@ export default function Buy() {
                       height={30}
                     />{" "}
                     Add sVintage
-                  </button>
-                )}
-              </Menu.Item>
-              <Menu.Item>
-                {({ active }) => (
-                  <button
-                    onClick={() => watchOnMM("MIM")}
-                    className={`${
-                      active ? "bg-primary text-white" : "text-gray-900"
-                    } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                  >
-                    <Image
-                      alt="Metamask"
-                      src={metamaskImg}
-                      width={30}
-                      height={30}
-                    />{" "}
-                    Add MIM
                   </button>
                 )}
               </Menu.Item>

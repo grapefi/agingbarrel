@@ -125,7 +125,7 @@ export default function LotteryPrize() {
   }, [timeLeftUntilNewMonth?.internal?.dataUpdatedAt]);
 
   return (
-    <Card title="Lottery Prize" image="grape-xgrape.png">
+    <Card title="Lottery Prize" image="vintage-token.png">
       <div className="flex justify-between text-xl">
         <div>Daily Deposit Pot</div>
         <div style={{ textAlign: "right" }}>
