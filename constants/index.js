@@ -93,15 +93,15 @@ export const MINER = {
 
 export const VINTAGEORACLE = {
   1337: {
-    address: '0xF11762Ad331Cf019a8D9a2dFF9c931721Fc03E85',
+    address: '0x2cb6ecF54397b309cB3C1DAe80b302B63706B959',
     abi: vintageOracleAbi,
   },
   43113: {
-    address: '0xF11762Ad331Cf019a8D9a2dFF9c931721Fc03E85',
+    address: '0x2cb6ecF54397b309cB3C1DAe80b302B63706B959',
     abi: vintageOracleAbi,
   },
   43114: {
-    address: '0xF11762Ad331Cf019a8D9a2dFF9c931721Fc03E85',
+    address: '0x2cb6ecF54397b309cB3C1DAe80b302B63706B959',
     abi: vintageOracleAbi,
   }
 }
