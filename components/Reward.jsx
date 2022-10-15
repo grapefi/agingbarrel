@@ -126,7 +126,7 @@ const Rewards = memo(() => {
             <CountUp
               start={prevClaimBalance}
               end={claimBalance}
-              decimals={5}
+              decimals={1}
               separator=","
             />
             &nbsp; Tokens
@@ -144,7 +144,7 @@ const Rewards = memo(() => {
             <CountUp
               start={0}
               end={rewardsPerDayBalance}
-              decimals={5}
+              decimals={1}
               separator=","
             />
             &nbsp; Tokens
