@@ -17,7 +17,7 @@ export default function Footer() {
           </a> | 
           <a
             className="ml-2 underline"
-            href="https://grape-finance.gitbook.io/grape-finance-docs/unique-features/xgrape-grapevine/soda-press"
+            href="https://winemaker-docs.grapefinance.app/winemaker/solera"
             target="_blank"
             rel="noreferrer"
           >
