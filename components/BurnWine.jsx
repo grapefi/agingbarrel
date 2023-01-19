@@ -46,7 +46,7 @@ export default function BurnWine () {
   }
 
   useEffect(() => {
-    const className = 'app-btn w-full';
+    let className = 'app-btn w-full';
     if (!account) className += ' btn-disabled';
     setBtnClass(className);
   }, [account, hasSufficientAllowance]);
