@@ -44,16 +44,30 @@ export default function Home() {
           <Notification />
           <div className="grid gap-5 mx-auto max-w-5xl px-10">
             <div style={{ zIndex: 1 }} className="grid gap-4">
-              <TopDescription />
+              <div style={{ margin: "10px" }}>
+                <div className="text-5xl font-superstar top-description-title">
+                  Vintage Aging Barrel
+                </div>
+                <div className="text-white">
+                  For the best User Experience, please use the Presses on{" "}
+                  <a
+                    className="underline font-bold"
+                    href="https://grapefinance.app/dashboard#presses"
+                  >
+                    Grape's Dashboard
+                  </a>
+                </div>
+              </div>
+              {/* <TopDescription /> */}
 
-              <ProgressTimer />
+              {/* <ProgressTimer /> */}
             </div>
           </div>
           {/* <div className="grid justify-center mx-auto mb-10 max-w-5xl px-5">
             <ToggleView />
           </div> */}
 
-          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 mx-auto mb-10 max-w-5xl px-5 mt-10">
+          {/* <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 mx-auto mb-10 max-w-5xl px-5 mt-10">
             <div style={{ zIndex: 1 }} className="grid gap-4">
               <Pool />
               <TopDepositedPrize />
@@ -64,13 +78,13 @@ export default function Home() {
               <Rewards />
               <Assassinate />
             </div>
-          </div>
-          <div className="grid grid-cols-1 mx-auto mb-10 max-w-5xl px-5">
+          </div> */}
+          {/* <div className="grid grid-cols-1 mx-auto mb-10 max-w-5xl px-5">
             {" "}
             <div style={{ zIndex: 1 }} className="grid gap-1">
               <Referrals />
             </div>
-          </div>
+          </div> */}
           <Footer />
         </NotificationContext.Provider>
       </main>
