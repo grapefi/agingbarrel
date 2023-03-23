@@ -54,7 +54,7 @@ export default function Home() {
                     className="underline font-bold"
                     href="https://grapefinance.app/dashboard#presses"
                   >
-                    Grape's Dashboard
+                    {`Grape's Dashboard`}
                   </a>
                 </div>
               </div>
